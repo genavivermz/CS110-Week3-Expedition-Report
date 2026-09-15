@@ -1,4 +1,4 @@
-# Code Attempt & Peer Testing
+# Code Attempt, Peer Testing, and SEEK/AAA Work
 
 ## Code Attempt
 ### Image linking
@@ -17,3 +17,21 @@
 - Ulises checked his button functionality for all scenes using Next and Previous buttons.
 - Realized scenes weren't toggling.
 - Added src to script.js to link JavaScript file to HTML file.
+
+## SEEK Framework
+<p align="left">
+    <img src="images/SEEK-01.png" width="50%" />
+</p>
+
+<p align="right">
+    <img src="images/SEEK-02.png" width="50%" />
+</p>
+
+## AAA Framework
+<p align="left">
+    <img src="images/AAA-01.png" width="50%" />
+</p>
+
+<p align="right">
+    <img src="images/AAA-02.png" width="50%" />
+</p>
