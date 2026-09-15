@@ -19,19 +19,19 @@
 - Added src to script.js to link JavaScript file to HTML file.
 
 ## SEEK Framework
-<p align="left">
+<p align="center">
     <img src="images/SEEK-01.png" width="50%" />
 </p>
 
-<p align="right">
+<p align="center">
     <img src="images/SEEK-02.png" width="50%" />
 </p>
 
 ## AAA Framework
-<p align="left">
+<p align="center">
     <img src="images/AAA-01.png" width="50%" />
 </p>
 
-<p align="right">
+<p align="center">
     <img src="images/AAA-02.png" width="50%" />
 </p>
