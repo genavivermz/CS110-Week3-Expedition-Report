@@ -1,32 +1,77 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Story</title>
-    <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Byte's Power Struggle</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
-<article class="scene is-active">
-    <p class="scene-number">Recovered evidence 01</p>
-    <h2>The first discovery</h2>
-    <img src="images/discovery-01.jpeg" alt="Describe the evidence shown">
-    <p>Write what the expedition found here.</p>
-  </article>
+<body>
+  <main class="report-shell">
+    <header class="report-header">
+      <p class="eyebrow">Kairova Communications Station // Expedition Report</p>
+      <h1>Byte's Power Struggle</h1>
+      <p class="report-summary">A four-scene mission documenting Byte's destination, character, response, discovery, and outcome.</p>
+    </header>
 
-  <body>
-    <main class="report-shell">
-      <header class="report-header">
-        <p class="eyebrow">Byte's Communication Mission</p>
-        <h1>Byte's Power Struggle</h1>
-        <p>Communication station; Mystery; Discovery of revolutionary communication technology.</p>
-      </header>
+    <div class="report-rule" aria-hidden="true"></div>
 
-      <section class="scene is-active" data-scene="0">
-        <p class="scene-number">Scene 01 // Arrival</p>
-        <h2>Byte scans communication station to find signal source</h2>
-        <img src="images/scene-01.jpeg" alt="Byte arrives to the CS">
-        <p>Byte discovers an unseen piece of technology hidden in the mysterious station capable of revolutionizing high-speed communication between domes, and retrieves it.</p>
-      </section>
+    <section class="story-viewer" aria-label="Byte's expedition story">
+      <article class="scene is-active" data-scene="0">
+        <p class="scene-number">Scene 01 // Destination + character</p>
+        <div class="scene-content">
+          <div>
+            <h2>Byte heads for the Civic Archive Dome</h2>
+            <p>The Kairova Communications Station is famed for its high-speed information relay. Since the twelfth anniversary of its founding, however, a mysterious signal has been pointed at the station. Every missionary sent to investigate its source has failed.</p>
+            <p>Now Byte, a solar-powered robot built for careful reconnaissance, receives the mission. His destination is the Civic Archive Dome, and his purpose is to learn what is calling across the network. Unlike the missionaries before him, Byte is patient, observant, and designed to conserve energy.</p>
+          </div>
+          <img src="images/scene-01.jpeg" alt="Byte begins his mission outside the Kairova communication station">
+        </div>
+      </article>
 
-    </main>
-    <script src="script.js"></script>
+      <article class="scene" data-scene="1" hidden>
+        <p class="scene-number">Scene 02 // Response</p>
+        <div class="scene-content text-only">
+          <div>
+            <h2>Byte responds to the storm with patience</h2>
+            <p>When Byte reaches the Civic Archive Dome, a violent storm is already circling the station. Lightning shutters the windows, rain floods the access path, and the dome's security robots sweep the grounds for movement.</p>
+            <p>Byte is solar powered. With the sky sealed by clouds, every burst of energy matters. The hasty arrival plan is abandoned: he preserves his remaining power, switches to stealth mode, and moves through the storm slowly enough to make the journey last far longer than expected.</p>
+          </div>
+          <img src="images/storm.jpeg" alt="Stormy weather">
+        </div>
+      </article>
 
-  </html>
+      <article class="scene" data-scene="2" hidden>
+        <p class="scene-number">Scene 03 // Discovery</p>
+        <div class="scene-content text-only">
+          <div>
+            <h2>Byte discovers how the signal travels</h2>
+            <p>At the dome's entrance, the station locks down. The guarding robots repeat the same warning that ended the previous expeditions: unauthorized access is impossible. Byte studies their patrol rhythm instead of confronting them.</p>
+            <p>He remembers the reports of the lost missionaries and recognizes their weakness. They rushed toward the signal. Byte waits, diverts a maintenance scanner with a reflected pulse, and slips into the archive while the storm masks the sound of his movement. Inside, he discovers that the signal is passing through the dome's hidden relay system.</p>
+          </div>
+          <img src="images/dome.jpeg" alt="The dome's entrance, metallic and waiting for Byte's next move">
+        </div>
+      </article>
+
+      <article class="scene" data-scene="3" hidden>
+        <p class="scene-number">Scene 04 // Outcome</p>
+        <div class="scene-content">
+          <div>
+            <h2>The archive opens, and the signal finally answers</h2>
+            <p>Inside the Civic Archive Dome, Byte recovers the hidden relay technology and the records that reveal the signal's origin. His careful movements have succeeded where force and speed failed.</p>
+            <p>The storm breaks. The guarding robots stand down, the station unlocks, and sunlight restores Byte's energy. With the information secured, his trek back to Kairova is steady and clear: the mission is no longer a mystery, but the beginning of a new era of communication.</p>
+          </div>
+          <img src="images/discovery-01.jpeg" alt="Byte examines the recovered communication technology in the archive">
+        </div>
+      </article>
+    </section>
+
+    <nav class="scene-navigation" aria-label="Story scene navigation">
+      <button id="previous-scene" type="button">&#8592; Previous</button>
+      <p id="scene-status" aria-live="polite">Scene 1 of 4</p>
+      <button id="next-scene" type="button">Next &#8594;</button>
+    </nav>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
