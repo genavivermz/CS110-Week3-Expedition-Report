@@ -1,12 +1,19 @@
-# CS110 Week 3 Expedition Report starter
+# Code Attempt & Peer Testing
 
-Open this folder in VS Code. Keep `index.html`, `styles.css`, and `script.js` together.
+## Code Attempt
+### Image linking
+- Tried to link my images to their respective slides.
+- Checked the appropriate name for my images and typed in their file names into the hrefs.
+- The image slots showed no image.
+- Realized that my images weren't in the main codespace; they were under the images folder, so switched from "dome.jpeg" to "images/dome.jpeg"
 
-1. Open `index.html` in a browser.
-2. Replace the sample headings and paragraphs with your expedition story.
-3. Add your images to the `images` folder and replace each placeholder with an `<img>` element.
-4. Change the CSS so the presentation fits your selected genre while remaining readable.
-5. Test the Previous and Next buttons after every JavaScript change.
-6. Commit checkpoints with Git. Push the final project and publish it using the current course directions.
+# Proof
+<p align="center">
+    <img src="code-attempt.png" width="50%" />
+</p>
 
-If something fails, preserve the code. Record what you expected, what happened, the exact error, what you tried, and your next test. Ask in the designated CS110 Discord channel, in class, or in the CS Lab.
+
+## Peer Test Record
+- Ulises checked his button functionality for all scenes using Next and Previous buttons.
+- Realized scenes weren't toggling.
+- Added src to script.js to link JavaScript file to HTML file.
