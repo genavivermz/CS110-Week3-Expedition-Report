@@ -9,7 +9,7 @@
 
 # Proof
 <p align="center">
-    <img src="code-attempt.png" width="50%" />
+    <img src="images/code-attempt.png" width="50%" />
 </p>
 
 
